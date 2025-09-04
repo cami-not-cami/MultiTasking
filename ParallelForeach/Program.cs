@@ -5,16 +5,18 @@ namespace ParallelForeach
     class TestObject 
     {
         static int Counter  { get; set; } =0;
+        private int Id { get; set; }
         public TestObject() 
         {
             Counter++;
-            
+            Id = Counter;
+
         }
         public void CallOut()
         {
-            Console.WriteLine($"awkdaojwo {Counter}");
+            Console.WriteLine($"awkdaojwo {Id}");
             Thread.Sleep(300);
-            Console.WriteLine($"yippe {Counter}");
+            Console.WriteLine($"yippe {Id}");
         }
     }
     internal class Program
