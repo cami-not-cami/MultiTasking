@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTasking", "MultiTasking\MultiTasking.csproj", "{C1ACEBA9-1C58-41D0-80CF-EDD94E3E598E}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPool", "ThreadPool\ThreadPool.csproj", "{698226D3-1971-4679-9A2A-32620672A4EF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "taskBeispiel", "taskBeispiel\taskBeispiel.csproj", "{BFC73C02-FA77-48B1-B969-D4EFD75BBD96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCancel", "TaskCancel\TaskCancel.csproj", "{EBA8F638-9031-4E41-AD60-DD0BD64B8D69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelForeach", "ParallelForeach\ParallelForeach.csproj", "{0D4D6398-3E83-4C2D-B56D-4D138961A0C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{BFC73C02-FA77-48B1-B969-D4EFD75BBD96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFC73C02-FA77-48B1-B969-D4EFD75BBD96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFC73C02-FA77-48B1-B969-D4EFD75BBD96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA8F638-9031-4E41-AD60-DD0BD64B8D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA8F638-9031-4E41-AD60-DD0BD64B8D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA8F638-9031-4E41-AD60-DD0BD64B8D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA8F638-9031-4E41-AD60-DD0BD64B8D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D4D6398-3E83-4C2D-B56D-4D138961A0C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4D6398-3E83-4C2D-B56D-4D138961A0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4D6398-3E83-4C2D-B56D-4D138961A0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4D6398-3E83-4C2D-B56D-4D138961A0C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
